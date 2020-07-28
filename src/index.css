@@ -1,13 +1,190 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  max-width: 21cm;
+  max-height: 29.7cm;
+  margin: auto;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.todo {
+  display: grid;
+  grid-template-areas: "columna1" "columna2";
+  grid-template-columns: 7cm 1fr;
+}
+
+.columnaIzq {
+  grid-area: "columna1";
+  display: flex;
+  flex-direction: column;
+  background-color: #424242;
+  height: 29.7cm;
+  color: white;
+}
+
+.fotoYNombre {
+  position: relative;
+}
+
+.foto {
+  width: 100%;
+  opacity: .5;
+}
+
+.nombreYTitulo {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  color: white;
+}
+
+.nombreYTitulo h1 {
+  font-size: 1.5rem;
+  letter-spacing: .08rem;
+  text-transform: uppercase;
+  margin: 0;
+  color: #fa9160;
+}
+
+.nombreYTitulo span {
+  color: #fa9160;
+}
+
+.nombreYTitulo p {
+  margin: 0;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-size: .7rem;
+  letter-spacing: .08rem;
+  font-weight: 600;
+}
+
+.mailCeluDire {
+  margin-left: 15px;
+  letter-spacing: .08rem;
+  margin-top: 20px;
+}
+
+.habilidades {
+  padding: 10px;
+  letter-spacing: .1rem;
+  margin-top: 40px;
+}
+
+.habilidades h5 {
+  font-size: 1rem;
+  color: #fa9160;
+  text-decoration: underline;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.habilidad {
+  /*display: flex;
+  justify-content: space-between;*/
+  padding: 5px 10px;
+  margin: 0;
+}
+
+.habilidad p {
+  margin: 0;
+  font-size: .8rem;
+}
+
+.barrita {
+  height: 10px;
+  background-color: rgba(255, 255, 255, .12);
+  position: relative;
+}
+
+.barrita .progreso {
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: #fa9160;
+  border-right: 1px solid white;
+  box-sizing: border-box;
+}
+
+/* COLUMNA DERECHA */
+
+
+.columnaDer {
+  grid-area: "columna2";
+  padding-left: 25px;
+  padding-right: 25px;
+  line-height: 1.3rem;
+  text-align: justify;
+  letter-spacing: .07rem;
+  padding-top: 40px;
+}
+
+.sobreMi h2 {
+  text-decoration: underline;
+  font-weight: 700;
+  color: #fa9160;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+  font-size: 1.3rem;
+}
+
+.sobreMi span {
+  color: #fa9160;
+  font-weight: 700;
+}
+
+.sobreMi p {
+  font-size: .8rem;
+  margin: 0;
+}
+
+.sobreMi.educacion h4 {
+  display: none;
+}
+
+.sobreMi h3 {
+  color: black;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  margin: 0;
+  margin-top: .6rem;
+}
+
+.sobreMi h4 {
+  color: #575656;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.sobreMi h4 span {
+  color: #9e9e9e;
+  margin-left: .4rem;
+  font-size: .7rem;
+  font-weight: 300;
+}
+
+.hobbies {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.hobbie {
+  text-align: center;
+}
+
+.hobbie h5 {
+  font-weight: 400;
+  letter-spacing: .08rem;
+  font-size: 1rem;
+  margin: 0;
 }

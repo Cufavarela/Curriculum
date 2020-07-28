@@ -1,0 +1,101 @@
+{
+    "name": "Facundo Varela",
+    "title": "Junior Web Developer",
+    "age": 29,
+    "email": "cufa.varela@gmail.com",
+    "phone": "+54 11-6980-9120",
+    "location": "Saavedra, CABA, Argentina",
+    "description": "<p>Soy una persona <span>responsable</span>, <span>eficiente</span> y <span>resolutiva</span>, producto de mi experiencia como cajero en diferentes empresas. Además soy <span>apasionado</span> y <span>autodidacta</span> cuando se trata del <span>diseño y desarrollo web</span>.</p> <p>En el 2019 dejé mi vida de cajero, pasé un año trabajando y estudiando en Alemania para volver como desarrollador.</p> <p>En el desarrollo web encontré algo que no me pasaba desde que iba a la facultad, y son ganas de quedarme toda la noche despierto, ya sea probando una nueva herramienta o resolviendo algún inconveniente en el proceso creativo. El <span>dinamismo</span> de la industria me motiva y me inspira para pasar cada ratito libre que tengo leyendo, y aprendiendo cosas nuevas. Eso es lo que busco en un trabajo: <span>desafíos, motivación, y poder, todos los días, aprender algo nuevo</span>.</p>",
+    "experiences": [
+        {
+            "company": "Hyatt Regency Cologne",
+            "references": "Ref.: svenia.keppler@hyatt.com",
+            "period": "2019-2020",
+            "job": "Housekeeping",
+            "description": "Trabajé en el hotel mientras aprendía alemán, mis tareas eran limpieza de las habitaciones y atención al huésped."
+        },
+        {
+            "company": "BBVA",
+            "references": "Ref.: diego.pandolfelli@bbva.com",
+            "period": "2016-2019",
+            "job": "Cajero/Tesorero",
+            "description": "Realizaba tareas de caja, retiros, depósitos, atención al público, y reemplazos de tesorero."
+        },
+        {
+            "company": "Coto c.i.c.s.a.",
+            "references": "",
+            "period": "2014-2016",
+            "job": "Cajero",
+            "description": "Atención al público, operaciones con efectivo y tarjetas, arqueos y auditorías."
+        },
+        {
+            "company": "Starbucks",
+            "references": "",
+            "period": "2013-2014",
+            "job": "Barista",
+            "description": "Atención al público, manejo de caja, efectivo y tarjetas."
+        }
+    ],
+    "education": [
+        {
+            "company": "Diseño Web",
+            "description": "CoderHouse 2019 - 2020"
+        },
+        {
+            "company": "Introducción al Desarrollo Web",
+            "description": "Google Activate 2019"
+        },
+        {
+            "company": "Director de arte publicitario",
+            "description": "ISP 2011-2015"
+        }
+    ],
+    "skills": [
+        {
+            "progress": 80,
+            "title": "HTML"
+        },
+        {
+            "progress": 80,
+            "title": "CSS"
+        },
+        {
+            "progress": 50,
+            "title": "JavaScript"
+        },
+        {
+            "progress": 70,
+            "title": "ReactJS"
+        },
+        {
+            "progress": 60,
+            "title": "Bootstrap"
+        },
+        {
+            "progress": 50,
+            "title": "Python"
+        },
+        {
+            "progress": 80,
+            "title": "Photoshop"
+        },
+        {
+            "progress": 60,
+            "title": "Illustrator"
+        }
+    ],
+    "languages": [
+        {
+            "progress": 90,
+            "title": "Inglés"
+        },
+        {
+            "progress": 40,
+            "title": "Alemán"
+        },
+        {
+            "progress": 100,
+            "title": "Español"
+        }
+    ]
+}
