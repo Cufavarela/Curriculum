@@ -52,7 +52,7 @@
     ],
     "skills": [
         {
-            "progress": 80,
+            "progress": 85,
             "title": "HTML"
         },
         {
@@ -60,15 +60,15 @@
             "title": "CSS"
         },
         {
-            "progress": 50,
+            "progress": 80,
             "title": "JavaScript"
         },
         {
-            "progress": 70,
+            "progress": 80,
             "title": "ReactJS"
         },
         {
-            "progress": 60,
+            "progress": 70,
             "title": "Bootstrap"
         },
         {
