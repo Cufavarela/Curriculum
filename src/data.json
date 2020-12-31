@@ -5,8 +5,22 @@
     "email": "cufa.varela@gmail.com",
     "phone": "+54 11-6980-9120",
     "location": "Saavedra, CABA, Argentina",
-    "description": "<p>Soy una persona <span>responsable</span>, <span>eficiente</span> y <span>resolutiva</span>, producto de mi experiencia como cajero en diferentes empresas. Además soy <span>apasionado</span> y <span>autodidacta</span> cuando se trata del <span>diseño y desarrollo web</span>.</p> <p>En el 2019 dejé mi vida de cajero, pasé un año trabajando y estudiando en Alemania para volver como desarrollador.</p> <p>En el desarrollo web encontré algo que no me pasaba desde que iba a la facultad, y son ganas de quedarme toda la noche despierto, ya sea probando una nueva herramienta o resolviendo algún inconveniente en el proceso creativo. El <span>dinamismo</span> de la industria me motiva y me inspira para pasar cada ratito libre que tengo leyendo, y aprendiendo cosas nuevas. Eso es lo que busco en un trabajo: <span>desafíos, motivación, y poder, todos los días, aprender algo nuevo</span>.</p>",
+    "description": "<p>Soy una persona <span>responsable</span>, <span>eficiente</span> y <span>resolutiva</span>, producto de mi experiencia como cajero en diferentes empresas. Además soy <span>apasionado</span> y <span>autodidacta</span> cuando se trata del <span>diseño y desarrollo web</span>.</p> <p>En el 2019 dejé mi vida de cajero, pasé un año trabajando y estudiando en Alemania para volver como desarrollador.</p> <p>En el desarrollo web encontré algo que no me pasaba desde que iba a la facultad, y son ganas de quedarme toda la noche despierto, ya sea probando una nueva herramienta o resolviendo algún inconveniente en el proceso creativo. El <span>dinamismo</span> de la industria me motiva y me inspira para pasar cada ratito libre que tengo leyendo, y aprendiendo cosas nuevas.</p>",
     "experiences": [
+        {
+            "company": "Revai",
+            "references": "Ref.: romina.cano@reanswer.com.ar",
+            "period": "2020-Actual",
+            "job": "Frontend Developer",
+            "description": "Mi primer experiencia formal como desarrollador frontend-React JS."
+        },        
+        {
+            "company": "Coderhouse",
+            "references": "Ref.: maria.p@coderhouse.com",
+            "period": "2020-Actual",
+            "job": "Tutor",
+            "description": "Soy tutor en los cursos de Diseño web, Javascript, y React JS, acompañando académicamente a los alumnos."
+        },
         {
             "company": "Hyatt Regency Cologne",
             "references": "Ref.: svenia.keppler@hyatt.com",
@@ -37,6 +51,10 @@
         }
     ],
     "education": [
+        {
+            "company": "React JS",
+            "description": "CoderHouse 2020"
+        },
         {
             "company": "Diseño Web",
             "description": "CoderHouse 2019 - 2020"

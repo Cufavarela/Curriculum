@@ -68,13 +68,13 @@ code {
 .mailCeluDire {
   margin-left: 15px;
   letter-spacing: .08rem;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 .habilidades {
   padding: 10px;
   letter-spacing: .1rem;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 .habilidades h5 {
@@ -83,12 +83,10 @@ code {
   text-decoration: underline;
   text-transform: uppercase;
   margin: 0;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .habilidad {
-  /*display: flex;
-  justify-content: space-between;*/
   padding: 5px 10px;
   margin: 0;
 }
@@ -114,6 +112,26 @@ code {
   box-sizing: border-box;
 }
 
+.hobbies {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-top: 0px;
+}
+
+.hobbie {
+  text-align: center;
+  padding: 3px;
+}
+
+.hobbie h5 {
+  font-weight: 400;
+  letter-spacing: .08rem;
+  font-size: .8rem;
+  margin: 4px;
+  text-decoration: none;
+}
+
 /* COLUMNA DERECHA */
 
 
@@ -124,7 +142,7 @@ code {
   line-height: 1.3rem;
   text-align: justify;
   letter-spacing: .07rem;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 .sobreMi h2 {
@@ -132,8 +150,8 @@ code {
   font-weight: 700;
   color: #fa9160;
   text-transform: uppercase;
-  margin-top: 1rem;
-  margin-bottom: .5rem;
+  margin-top: .8rem;
+  margin-bottom: .4rem;
   font-size: 1.3rem;
 }
 
@@ -154,9 +172,9 @@ code {
 .sobreMi h3 {
   color: black;
   text-transform: uppercase;
-  font-size: 1.1rem;
+  font-size: .9rem;
   margin: 0;
-  margin-top: .6rem;
+  margin-top: .4rem;
 }
 
 .sobreMi h4 {
@@ -170,21 +188,4 @@ code {
   margin-left: .4rem;
   font-size: .7rem;
   font-weight: 300;
-}
-
-.hobbies {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 30px;
-}
-
-.hobbie {
-  text-align: center;
-}
-
-.hobbie h5 {
-  font-weight: 400;
-  letter-spacing: .08rem;
-  font-size: 1rem;
-  margin: 0;
 }
