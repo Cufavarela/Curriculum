@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Icon from '@mdi/react';
 import { mdiEmailOutline, mdiMapMarker, mdiCellphoneAndroid, mdiHeadphones, mdiXml, mdiSoccer, mdiLaptopChromebook } from '@mdi/js';
 import './App.css';
@@ -12,7 +12,7 @@ function App() {
       <div className="todo">
         <div className="columnaIzq">
           <div className="fotoYNombre">
-            <img src="/fotoCufa3.jpg" className="foto"></img>
+            <img src="/fotoCufa3.jpg" className="foto" alt="Facundo Varela"></img>
             <div className="nombreYTitulo">
               <h1>{data.name}</h1>
               <p>{data.title} <span>•</span> {data.age} <span>años</span></p>

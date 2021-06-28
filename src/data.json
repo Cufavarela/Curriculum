@@ -5,21 +5,21 @@
     "email": "cufa.varela@gmail.com",
     "phone": "+54 11-6980-9120",
     "location": "Saavedra, CABA, Argentina",
-    "description": "<p>Soy una persona <span>responsable</span>, <span>eficiente</span> y <span>resolutiva</span>, producto de mi experiencia como cajero en diferentes empresas. Además soy <span>apasionado</span> y <span>autodidacta</span> cuando se trata del <span>diseño y desarrollo web</span>.</p> <p>En el 2019 dejé mi vida de cajero, pasé un año trabajando y estudiando en Alemania para volver como desarrollador.</p> <p>En el desarrollo web encontré algo que no me pasaba desde que iba a la facultad, y son ganas de quedarme toda la noche despierto, ya sea probando una nueva herramienta o resolviendo algún inconveniente en el proceso creativo. El <span>dinamismo</span> de la industria me motiva y me inspira para pasar cada ratito libre que tengo leyendo, y aprendiendo cosas nuevas.</p>",
+    "description": "<p>Soy una persona <span>responsable</span>, <span>eficiente</span> y <span>resolutiva</span>, producto de mi experiencia como cajero en diferentes empresas. Además soy <span>apasionado</span> y <span>autodidacta</span> cuando se trata del <span>diseño y desarrollo web</span>.</p> <p>En el 2019 dejé mi vida de cajero, pasé un año trabajando y estudiando en Alemania para convertirme en desarrollador.</p> <p>En el desarrollo encontré algo que no me pasaba desde que iba a la facultad, y son ganas de quedarme toda la noche despierto, ya sea probando una nueva herramienta o resolviendo algún inconveniente en el proceso creativo. El <span>dinamismo</span> de la industria me motiva y me inspira para pasar cada ratito libre que tengo leyendo, y aprendiendo cosas nuevas.</p>",
     "experiences": [
         {
-            "company": "Revai",
-            "references": "Ref.: romina.cano@reanswer.com.ar",
+            "company": "Reanswer / Revai",
+            "references": "Ref.: tomas.goldenberg@reanswer.com.ar",
             "period": "2020-Actual",
-            "job": "Frontend Developer",
-            "description": "Mi primer experiencia formal como desarrollador frontend-React JS."
-        },        
+            "job": "Fullstack Developer",
+            "description": "Mi primer experiencia formal como desarrollador fullstack - Utilizando React como principal herramienta en el front, y Node.js con Typescript en el back para bases de datos SQL y noSQL."
+        },
         {
             "company": "Coderhouse",
             "references": "Ref.: maria.p@coderhouse.com",
             "period": "2020-Actual",
             "job": "Tutor",
-            "description": "Soy tutor en los cursos de Diseño web, Javascript, y React JS, acompañando académicamente a los alumnos."
+            "description": "Soy tutor en los cursos de Diseño web, Javascript, y React JS, acompaño académicamente a los alumnos, corrijo trabajos entregables, y dicto clase cuando es necesario."
         },
         {
             "company": "Hyatt Regency Cologne",
@@ -41,13 +41,6 @@
             "period": "2014-2016",
             "job": "Cajero",
             "description": "Atención al público, operaciones con efectivo y tarjetas, arqueos y auditorías."
-        },
-        {
-            "company": "Starbucks",
-            "references": "",
-            "period": "2013-2014",
-            "job": "Barista",
-            "description": "Atención al público, manejo de caja, efectivo y tarjetas."
         }
     ],
     "education": [
@@ -70,36 +63,36 @@
     ],
     "skills": [
         {
-            "progress": 85,
-            "title": "HTML"
+            "progress": 95,
+            "title": "ReactJS"
         },
         {
-            "progress": 80,
-            "title": "CSS"
-        },
-        {
-            "progress": 80,
+            "progress": 90,
             "title": "JavaScript"
         },
         {
             "progress": 80,
-            "title": "ReactJS"
+            "title": "Typescript"
         },
         {
-            "progress": 70,
-            "title": "Bootstrap"
+            "progress": 90,
+            "title": "HTML / CSS"
         },
         {
-            "progress": 50,
-            "title": "Python"
+            "progress": 75,
+            "title": "Redux"
         },
         {
             "progress": 80,
-            "title": "Photoshop"
+            "title": "SQL / MONGO"
         },
         {
-            "progress": 60,
-            "title": "Illustrator"
+            "progress": 75,
+            "title": "Redux"
+        },
+        {
+            "progress": 75,
+            "title": "Redux"
         }
     ],
     "languages": [
