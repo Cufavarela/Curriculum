@@ -1,112 +1,108 @@
 {
-    "name": "Facundo Varela",
-    "title": "Junior Web Developer",
-    "age": 29,
-    "email": "cufa.varela@gmail.com",
-    "phone": "+54 11-6980-9120",
-    "location": "Saavedra, CABA, Argentina",
-    "description": "<p>Soy una persona <span>responsable</span>, <span>eficiente</span> y <span>resolutiva</span>, producto de mi experiencia como cajero en diferentes empresas. Además soy <span>apasionado</span> y <span>autodidacta</span> cuando se trata del <span>diseño y desarrollo web</span>.</p> <p>En el 2019 dejé mi vida de cajero, pasé un año trabajando y estudiando en Alemania para convertirme en desarrollador.</p> <p>En el desarrollo encontré algo que no me pasaba desde que iba a la facultad, y son ganas de quedarme toda la noche despierto, ya sea probando una nueva herramienta o resolviendo algún inconveniente en el proceso creativo. El <span>dinamismo</span> de la industria me motiva y me inspira para pasar cada ratito libre que tengo leyendo, y aprendiendo cosas nuevas.</p>",
-    "experiences": [
-        {
-            "company": "Reanswer / Revai",
-            "references": "Ref.: tomas.goldenberg@reanswer.com.ar",
-            "period": "2020-Actual",
-            "job": "Fullstack Developer",
-            "description": "Mi primer experiencia formal como desarrollador fullstack - Utilizando React como principal herramienta en el front, y Node.js con Typescript en el back para bases de datos SQL y noSQL."
-        },
-        {
-            "company": "Coderhouse",
-            "references": "Ref.: maria.p@coderhouse.com",
-            "period": "2020-Actual",
-            "job": "Tutor",
-            "description": "Soy tutor en los cursos de Diseño web, Javascript, y React JS, acompaño académicamente a los alumnos, corrijo trabajos entregables, y dicto clase cuando es necesario."
-        },
-        {
-            "company": "Hyatt Regency Cologne",
-            "references": "Ref.: svenia.keppler@hyatt.com",
-            "period": "2019-2020",
-            "job": "Housekeeping",
-            "description": "Trabajé en el hotel mientras aprendía alemán, mis tareas eran limpieza de las habitaciones y atención al huésped."
-        },
-        {
-            "company": "BBVA",
-            "references": "Ref.: diego.pandolfelli@bbva.com",
-            "period": "2016-2019",
-            "job": "Cajero/Tesorero",
-            "description": "Realizaba tareas de caja, retiros, depósitos, atención al público, y reemplazos de tesorero."
-        },
-        {
-            "company": "Coto c.i.c.s.a.",
-            "references": "",
-            "period": "2014-2016",
-            "job": "Cajero",
-            "description": "Atención al público, operaciones con efectivo y tarjetas, arqueos y auditorías."
-        }
-    ],
-    "education": [
-        {
-            "company": "React JS",
-            "description": "CoderHouse 2020"
-        },
-        {
-            "company": "Diseño Web",
-            "description": "CoderHouse 2019 - 2020"
-        },
-        {
-            "company": "Introducción al Desarrollo Web",
-            "description": "Google Activate 2019"
-        },
-        {
-            "company": "Director de arte publicitario",
-            "description": "ISP 2011-2015"
-        }
-    ],
-    "skills": [
-        {
-            "progress": 95,
-            "title": "ReactJS"
-        },
-        {
-            "progress": 90,
-            "title": "JavaScript"
-        },
-        {
-            "progress": 80,
-            "title": "Typescript"
-        },
-        {
-            "progress": 90,
-            "title": "HTML / CSS"
-        },
-        {
-            "progress": 75,
-            "title": "Redux"
-        },
-        {
-            "progress": 80,
-            "title": "SQL / MONGO"
-        },
-        {
-            "progress": 75,
-            "title": "Redux"
-        },
-        {
-            "progress": 75,
-            "title": "Redux"
-        }
-    ],
-    "languages": [
-        {
-            "progress": 90,
-            "title": "Inglés"
-        },
-        {
-            "progress": 40,
-            "title": "Alemán"
-        },
-        {
-            "progress": 100,
-            "title": "Español"
-        }
-    ]
+  "name": "Facundo Varela",
+  "title": "FrontEnd Developer",
+  "age": 30,
+  "email": "cufa.varela@gmail.com",
+  "phone": "+54 11-6980-9120",
+  "location": "Saavedra, CABA, Argentina",
+  "description": "<p>Soy una persona <span>responsable</span>, <span>eficiente</span> y <span>resolutiva</span>, producto de mi experiencia como cajero en diferentes empresas. Además soy <span>apasionado</span> y <span>autodidacta</span> cuando se trata del <span>diseño y desarrollo web</span>.</p> <p>En el 2019 dejé mi vida de cajero, pasé un año trabajando y estudiando en Alemania para convertirme en desarrollador.</p> <p>En el desarrollo encontré algo que no me pasaba desde que iba a la facultad, y son ganas de quedarme toda la noche despierto, ya sea probando una nueva herramienta o resolviendo algún inconveniente en el proceso creativo. El <span>dinamismo</span> de la industria me motiva y me inspira para pasar cada ratito libre que tengo leyendo, y aprendiendo cosas nuevas.</p>",
+  "experiences": [
+    {
+      "company": "Reanswer / Revai",
+      "references": "Ref.: tomas.goldenberg@reanswer.com.ar",
+      "period": "2020-Actual",
+      "job": "Fullstack Developer",
+      "description": "Mi primer experiencia formal como desarrollador fullstack - Utilizando React como principal herramienta en el front, y Node.js con Typescript en el back para bases de datos SQL y noSQL."
+    },
+    {
+      "company": "Coderhouse",
+      "references": "Ref.: maria.p@coderhouse.com",
+      "period": "2020-Actual",
+      "job": "Tutor",
+      "description": "Soy tutor en los cursos de Diseño web, Javascript, y React JS, acompaño académicamente a los alumnos, corrijo trabajos entregables, y dicto clase cuando es necesario."
+    },
+    {
+      "company": "Hyatt Regency Cologne",
+      "references": "Ref.: svenia.keppler@hyatt.com",
+      "period": "2019-2020",
+      "job": "Housekeeping",
+      "description": "Trabajé en el hotel mientras aprendía alemán, mis tareas eran limpieza de las habitaciones y atención al huésped."
+    },
+    {
+      "company": "BBVA",
+      "references": "Ref.: diego.pandolfelli@bbva.com",
+      "period": "2016-2019",
+      "job": "Cajero/Tesorero",
+      "description": "Realizaba tareas de caja, retiros, depósitos, atención al público, y reemplazos de tesorero."
+    },
+    {
+      "company": "Coto c.i.c.s.a.",
+      "references": "",
+      "period": "2014-2016",
+      "job": "Cajero",
+      "description": "Atención al público, operaciones con efectivo y tarjetas, arqueos y auditorías."
+    }
+  ],
+  "education": [
+    {
+      "company": "React JS",
+      "description": "CoderHouse 2020"
+    },
+    {
+      "company": "Diseño Web",
+      "description": "CoderHouse 2019 - 2020"
+    },
+    {
+      "company": "Introducción al Desarrollo Web",
+      "description": "Google Activate 2019"
+    },
+    {
+      "company": "Director de arte publicitario",
+      "description": "ISP 2011-2015"
+    }
+  ],
+  "skills": [
+    {
+      "progress": 95,
+      "title": "React"
+    },
+    {
+      "progress": 90,
+      "title": "JavaScript"
+    },
+    {
+      "progress": 80,
+      "title": "Typescript"
+    },
+    {
+      "progress": 90,
+      "title": "HTML / CSS"
+    },
+    {
+      "progress": 75,
+      "title": "Redux"
+    },
+    {
+      "progress": 80,
+      "title": "SQL / MONGO"
+    },
+    {
+      "progress": 60,
+      "title": "Socket"
+    }
+  ],
+  "languages": [
+    {
+      "progress": 90,
+      "title": "Inglés"
+    },
+    {
+      "progress": 40,
+      "title": "Alemán"
+    },
+    {
+      "progress": 100,
+      "title": "Español"
+    }
+  ]
 }
