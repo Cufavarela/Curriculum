@@ -1,108 +1,100 @@
 {
   "name": "Facundo Varela",
-  "title": "FrontEnd Developer",
-  "age": 30,
+  "title": "Fullstack Developer",
+  "age": 31,
   "email": "cufa.varela@gmail.com",
   "phone": "+54 11-6980-9120",
   "location": "Saavedra, CABA, Argentina",
-  "description": "<p>Soy una persona <span>responsable</span>, <span>eficiente</span> y <span>resolutiva</span>, producto de mi experiencia como cajero en diferentes empresas. Además soy <span>apasionado</span> y <span>autodidacta</span> cuando se trata del <span>diseño y desarrollo web</span>.</p> <p>En el 2019 dejé mi vida de cajero, pasé un año trabajando y estudiando en Alemania para convertirme en desarrollador.</p> <p>En el desarrollo encontré algo que no me pasaba desde que iba a la facultad, y son ganas de quedarme toda la noche despierto, ya sea probando una nueva herramienta o resolviendo algún inconveniente en el proceso creativo. El <span>dinamismo</span> de la industria me motiva y me inspira para pasar cada ratito libre que tengo leyendo, y aprendiendo cosas nuevas.</p>",
+  "description": "I love my job, I enjoy coding, I'm passionate about tech and new challenges. My goal is to improve teams by bringing a great set of soft-skills and the hunger of keep improving my technical skills ticket by ticket and day by day.",
   "experiences": [
+    {
+      "company": "Tap / Pency",
+      "references": "Ref.: apastrana@auntap.com",
+      "period": "August 2021 - Today",
+      "job": "Fullstack Mobile/Web Developer",
+      "description": "Development of a digital wallet oriented to the payment of services (TAP). Also Pency is web/app marketplace for small businesses.",
+      "stack": "NextJS | ReactJS | React Native | NodeJS | Typescript | Chackra-UI | Firebase | PostgreSQL | MongoDB | Git"
+    },
     {
       "company": "Reanswer / Revai",
       "references": "Ref.: tomas.goldenberg@reanswer.com.ar",
-      "period": "2020-Actual",
+      "period": "April 2020 - July 2021",
       "job": "Fullstack Developer",
-      "description": "Mi primer experiencia formal como desarrollador fullstack - Utilizando React como principal herramienta en el front, y Node.js con Typescript en el back para bases de datos SQL y noSQL."
+      "description": "Development of a web/app for management of medical records and administration in ophthalmological centers.",
+      "stack": "ReactJS | NodeJS | Typescript | Material-UI | Redux | Microservices | Express | PostgreSQL | Git"
     },
     {
       "company": "Coderhouse",
-      "references": "Ref.: maria.p@coderhouse.com",
-      "period": "2020-Actual",
-      "job": "Tutor",
-      "description": "Soy tutor en los cursos de Diseño web, Javascript, y React JS, acompaño académicamente a los alumnos, corrijo trabajos entregables, y dicto clase cuando es necesario."
+      "references": "Ref.: andrea.chimento@coderhouse.com",
+      "period": "March 2020 - December 2021",
+      "job": "Tutor/Mentor",
+      "description": "As a tutor in the React JS course, I accompanied the students academically, corrected deliverables, and gave classes when necessary.",
+      "stack": "Javascript | ReactJS | Firebase | Git"
     },
     {
-      "company": "Hyatt Regency Cologne",
-      "references": "Ref.: svenia.keppler@hyatt.com",
-      "period": "2019-2020",
-      "job": "Housekeeping",
-      "description": "Trabajé en el hotel mientras aprendía alemán, mis tareas eran limpieza de las habitaciones y atención al huésped."
-    },
-    {
-      "company": "BBVA",
+      "company": "BBVA / Coto c.i.c.s.a. / Starbucks",
       "references": "Ref.: diego.pandolfelli@bbva.com",
-      "period": "2016-2019",
-      "job": "Cajero/Tesorero",
-      "description": "Realizaba tareas de caja, retiros, depósitos, atención al público, y reemplazos de tesorero."
-    },
-    {
-      "company": "Coto c.i.c.s.a.",
-      "references": "",
-      "period": "2014-2016",
-      "job": "Cajero",
-      "description": "Atención al público, operaciones con efectivo y tarjetas, arqueos y auditorías."
+      "period": "2011-2019",
+      "job": "Cashier / Treasurer",
+      "description": "Before entering the IT world, I worked as a cashier in several companies, with BBVA being the peak of my career. In the bank I performed treasury tasks and had up to 3 people in charge."
     }
   ],
   "education": [
     {
       "company": "React JS",
-      "description": "CoderHouse 2020"
+      "description": "CoderHouse - February 2020"
     },
     {
-      "company": "Diseño Web",
-      "description": "CoderHouse 2019 - 2020"
+      "company": "Web Design",
+      "description": "CoderHouse - December 2019"
     },
     {
-      "company": "Introducción al Desarrollo Web",
+      "company": "Introduction to Web Development",
       "description": "Google Activate 2019"
     },
     {
-      "company": "Director de arte publicitario",
-      "description": "ISP 2011-2015"
+      "company": "Advertising art director",
+      "description": "AAP (Asociación Argentina de Publicidad) 2011-2015"
     }
   ],
   "skills": [
     {
       "progress": 95,
-      "title": "React"
+      "title": "ReactJS"
     },
     {
       "progress": 90,
-      "title": "JavaScript"
+      "title": "React Native"
     },
     {
-      "progress": 80,
+      "progress": 90,
       "title": "Typescript"
     },
     {
       "progress": 90,
-      "title": "HTML / CSS"
+      "title": "HTML / CSS / SASS"
     },
     {
-      "progress": 75,
-      "title": "Redux"
+      "progress": 90,
+      "title": "NodeJS"
     },
     {
-      "progress": 80,
+      "progress": 85,
       "title": "SQL / MONGO"
-    },
-    {
-      "progress": 60,
-      "title": "Socket"
     }
   ],
   "languages": [
     {
       "progress": 90,
-      "title": "Inglés"
+      "title": "English"
     },
     {
-      "progress": 40,
-      "title": "Alemán"
+      "progress": 30,
+      "title": "German"
     },
     {
       "progress": 100,
-      "title": "Español"
+      "title": "Spanish"
     }
   ]
 }

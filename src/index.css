@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   max-width: 21cm;
@@ -9,17 +9,18 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-.todo {
+.page {
   display: grid;
   grid-template-areas: "columna1" "columna2";
   grid-template-columns: 7cm 1fr;
+  height: 100vh;
 }
 
-.columnaIzq {
+.leftSide {
   grid-area: "columna1";
   display: flex;
   flex-direction: column;
@@ -28,81 +29,80 @@ code {
   color: white;
 }
 
-.fotoYNombre {
+.picAndName {
   position: relative;
 }
 
-.foto {
+.photo {
   width: 100%;
-  opacity: .5;
+  opacity: 0.5;
 }
 
-.nombreYTitulo {
+.nameAndTitle {
   position: absolute;
   bottom: 0;
   left: 10px;
   color: white;
 }
 
-.nombreYTitulo h1 {
+.nameAndTitle h1 {
   font-size: 1.5rem;
-  letter-spacing: .08rem;
+  letter-spacing: 0.08rem;
   text-transform: uppercase;
   margin: 0;
   color: #fa9160;
 }
 
-.nombreYTitulo span {
+.nameAndTitle span {
   color: #fa9160;
 }
 
-.nombreYTitulo p {
+.nameAndTitle p {
   margin: 0;
   margin-bottom: 15px;
   text-transform: uppercase;
-  font-size: .7rem;
-  letter-spacing: .08rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.08rem;
   font-weight: 600;
 }
 
-.mailCeluDire {
+.personalData {
   margin-left: 15px;
-  letter-spacing: .08rem;
+  letter-spacing: 0.08rem;
   margin-top: 0px;
 }
 
-.habilidades {
+.skills {
   padding: 10px;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   margin-top: 10px;
 }
 
-.habilidades h5 {
+.skills h5 {
   font-size: 1rem;
   color: #fa9160;
-  text-decoration: underline;
   text-transform: uppercase;
   margin: 0;
   margin-bottom: 8px;
 }
 
-.habilidad {
+.skill {
   padding: 5px 10px;
   margin: 0;
 }
 
-.habilidad p {
+.skill p {
   margin: 0;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
-.barrita {
+.bar {
   height: 10px;
-  background-color: rgba(255, 255, 255, .12);
+  background-color: rgba(255, 255, 255, 0.12);
   position: relative;
 }
 
-.barrita .progreso {
+.bar .progress {
   height: 100%;
   top: 0;
   left: 0;
@@ -126,66 +126,77 @@ code {
 
 .hobbie h5 {
   font-weight: 400;
-  letter-spacing: .08rem;
-  font-size: .8rem;
+  letter-spacing: 0.08rem;
+  font-size: 0.8rem;
   margin: 4px;
   text-decoration: none;
 }
 
 /* COLUMNA DERECHA */
 
-
-.columnaDer {
+.rightSide {
   grid-area: "columna2";
   padding-left: 25px;
   padding-right: 25px;
   line-height: 1.3rem;
   text-align: justify;
-  letter-spacing: .07rem;
+  letter-spacing: 0.07rem;
   padding-top: 20px;
 }
 
-.sobreMi h2 {
-  text-decoration: underline;
+.rightSideItem {
+  margin: 1rem 0;
+}
+
+.rightSideItem h2 {
   font-weight: 700;
   color: #fa9160;
   text-transform: uppercase;
-  margin-top: .8rem;
-  margin-bottom: .4rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.4rem;
   font-size: 1.3rem;
 }
 
-.sobreMi span {
+.rightSideItem span {
   color: #fa9160;
   font-weight: 700;
 }
 
-.sobreMi p {
-  font-size: .8rem;
-  margin: 0;
+.textBlockContainer {
+  margin: 1rem 0;
 }
 
-.sobreMi.educacion h4 {
+.rightSideItem.education h4 {
   display: none;
 }
 
-.sobreMi h3 {
-  color: black;
-  text-transform: uppercase;
-  font-size: .9rem;
+.textBlockContainer p {
+  font-size: 0.8rem;
   margin: 0;
-  margin-top: .4rem;
 }
 
-.sobreMi h4 {
+.textBlockContainer h3 {
+  color: black;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  margin: 0;
+  margin-top: 0.4rem;
+}
+
+.textBlockContainer h4 {
   color: #575656;
   font-size: 1rem;
   margin: 0;
 }
 
-.sobreMi h4 span {
+.textBlockContainer h4 span {
   color: #9e9e9e;
-  margin-left: .4rem;
-  font-size: .7rem;
+  margin-left: 0.4rem;
+  font-size: 0.7rem;
   font-weight: 300;
+}
+
+.textBlockContainer .stack {
+  margin: 0.3rem 0;
+  font-size: 0.9rem;
 }
